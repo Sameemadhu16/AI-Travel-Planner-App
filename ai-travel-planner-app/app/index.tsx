@@ -1,5 +1,5 @@
 import { Text, View } from "react-native";
-
+import Login from '../components/Login'
 export default function Index() {
 
 
@@ -10,10 +10,7 @@ export default function Index() {
         
       }}
     >
-      <Text style={{
-        fontSize: 30,
-        fontFamily:'outfit-bold',
-      }}>Subscribe to samiya16!</Text>
+      <Login/>
     </View>
   );
 }
